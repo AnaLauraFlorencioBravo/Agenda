@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EBDEF0 ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .user-list {
+    margin-top: 20px;
+  }
+  
+  .user-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    margin-bottom: 20px; /* Ajuste del margen inferior para separar de los botones */   
+    border-bottom: 3px solid #ccc; /* Esta línea agrega la separación entre usuarios */
+    
+  }
+  
+  .user-list input[type="text"],
+  .user-list input[type="email"],
+  .user-form input[type="text"],
+  .user-form input[type="email"],
+  .user-form button,
+  .user-list button {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .user-list button,
+  .user-form button {
+    background-color: #C39BD3 ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .user-list button:hover,
+  .user-form button:hover {
+    background-color: #D2B4DE ;
+    
+  }
+  
+  .user-list input[type="text"],
+  .user-list input[type="email"],
+  .user-form input[type="text"],
+  .user-form input[type="email"] {
+    width: 150px;
+  }
+  
+  .user-form input[type="text"],
+  .user-form input[type="email"] {
+    width: calc(100% - 86px);
+  }
+  
+  .user-form button {
+    margin-top: 20px;
+    width: calc(30% - 16px);
+  }
+  
+  .user-list button:last-child {
+    margin-right: 0;
+    
+  }
+  
